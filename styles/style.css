@@ -8,12 +8,22 @@
 
 /* Shaerd styles */
 
-.flex{
-    display: flex;
-}
+
+
+/* colors */
+
 .dark-02{
     color: #424242;
 }
+
+.dark-03{
+    color: #727272;
+}
+
+.flex{
+    display: flex;
+}
+
 .description{
     font-size: 16px;
     color: #727272;
@@ -64,6 +74,7 @@ header{
 .nav-link{
     text-decoration: none;
     font-size: 18px;
+    font-size: 500;
     margin-right: 30px;
 }
 
@@ -88,9 +99,54 @@ header{
     margin-bottom: 20px;
 }
 
+
+/* grid image section */
+
+
+.container{
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px auto;
+    max-width: 1140px;
+}
+
+.team-work-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding-right: 70px;
+}
+.team-work-image{
+    width: 342px;
+    height: 342px;
+}
+
+.team-work-detail{
+    max-width: 537px;
+}
+
+.team-work-detail-header{
+    font-size: 45px;
+    font-weight: 500;
+}
+.second-part{
+    font-weight: bold;
+    color: #131313;
+}
+.third-part{
+    font-weight: bold;
+    color: #FF900E;
+}
+
+
+
+
+
+
 /* header media */
 
 @media screen and (max-width: 576px) {
+    /* navbar section start */
     .navbar{
         flex-wrap: wrap;
     }
@@ -99,6 +155,7 @@ header{
     }
     .nav-link{
         font-size: 14px;
+        font-size: 500;
         margin: 0 15px;
     }
     .nav-title, .banner-title{
@@ -107,4 +164,6 @@ header{
     .description{
         font-size: 14px;
     }
+
+    /* navbar section end */
 }
