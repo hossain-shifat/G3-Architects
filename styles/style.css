@@ -26,8 +26,12 @@
     padding: 15px 20px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
 
 /* header */
 header{
@@ -75,10 +79,22 @@ header{
 }
 
 .banner-img{
-    justify-content: center;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .banner-image{
-    max-width: 1140px;
+    width: 100%;
     margin-bottom: 20px;
+}
+
+/* header media */
+
+@media screen and (max-width: 576px) {
+    .navbar{
+        flex-wrap: wrap;
+    }
+    .nav-title, .banner-title{
+        font-size: 2rem;
+    }
 }
