@@ -94,9 +94,17 @@ header{
     .navbar{
         flex-wrap: wrap;
     }
+    .nav-links{
+        padding-top: 20px;
+    }
+    .nav-link{
+        font-size: 14px;
+        margin: 0 15px;
+    }
     .nav-title, .banner-title{
         font-size: 2rem;
     }
+    .description{
+        font-size: 14px;
+    }
 }
-
-
