@@ -166,4 +166,23 @@ header{
     }
 
     /* navbar section end */
+
+    /* team section */
+
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team-work-images{
+        grid-template-columns: repeat(1,1fr);
+        padding-right: 0;
+    }
+    .team-work-detail{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .team-work-detail-header{
+        font-size: 35px;
+    }
+
 }
