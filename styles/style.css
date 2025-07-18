@@ -291,6 +291,7 @@ hr{
 
 .sponsors-images{
     justify-content: space-around;
+    align-items: center;
     margin-top: 50px;
 }
 
@@ -405,6 +406,19 @@ hr{
         justify-content: center;
         align-items: center;
         gap: 20px;
+    }
+    /* fact section end */
+    /* sponsor section */
+    .sponsor-header{
+        font-size: 2rem;
+    }
+    .sponsors-img{
+        width: 40px;
+    }
+    .sponsors-images{
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
     }
 
 }
