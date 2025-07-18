@@ -37,6 +37,7 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    color: #fff;
 }
 
 ::-webkit-scrollbar{
@@ -74,7 +75,7 @@ header{
 .nav-link{
     text-decoration: none;
     font-size: 18px;
-    font-size: 500;
+    font-weight: 500;
     margin-right: 30px;
 }
 
@@ -186,6 +187,14 @@ hr{
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
 }
 
+.feature-container-inside{
+    padding: 30px;
+}
+
+.feature-description{
+    padding: 5px;
+}
+
 .feature-img{
     width: 100%;
 }
@@ -202,10 +211,12 @@ hr{
 .experience-year{
     font-size: 4rem;
     font-weight: bold;
+    color: #fff;
 }
 .experience{
     font-size: 1.5rem;
     font-weight: 500;
+    color: #fff;
 }
 
 
@@ -230,6 +241,9 @@ hr{
     .description{
         font-size: 14px;
     }
+    .banner-img{
+        margin: 0 10px;
+    }
 
     /* navbar section end */
 
@@ -249,6 +263,38 @@ hr{
     }
     .team-work-detail-header{
         font-size: 35px;
+    }
+    /* team section end */
+
+    /* feature section start */
+    .feature-container{
+        flex-direction: column;
+    }
+    .feature-container-mini{
+        margin-top: 20px;
+    }
+    hr{
+        height: 80px;
+    }
+    .feature-heading{
+        font-size: 2rem;
+    }
+    .feature-head-description{
+        text-align: center;
+    }
+    .feature-image{
+        margin: 0 10px;
+    }
+    .experience-year{
+        font-size: 3rem;
+    }
+    .experience{
+        font-size: 1rem;
+    }
+    .primary-btn{
+        padding: 12px 10px;
+        margin-top: 20px;
+        margin-left: 50px;
     }
 
 }
