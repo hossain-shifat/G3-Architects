@@ -302,7 +302,7 @@ hr{
 /* footer section */
 .footer{
     max-width: 1140px;
-    padding: 25px;
+    padding: 23px;
     margin: 130px auto;
 }
 
@@ -431,6 +431,17 @@ hr{
         justify-content: space-around;
         align-items: center;
         margin-top: 10px;
+    }
+    /* sponsor section end */
+    /* footer section start */
+    .footer{
+        margin: 90px auto;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    .footer-text{
+        font-size: 0.6rem;
+        text-align: center;
     }
 
 }
